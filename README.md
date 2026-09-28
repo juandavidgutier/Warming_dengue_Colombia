@@ -6,7 +6,7 @@ Warming-sensitive dengue risk emerges at higher elevations in Colombia: evidence
 
 Code and dataset shared to reproduce the results of the paper Warming-sensitive dengue risk emerges at higher elevations in Colombia: evidence from Stochastic Treatment Regimes.
 The file data\_final.csv is the dataset used for the results presented in the manuscript.
-To obtain the adjustment set required to control for confounding use the file DAG.py. To reproduce the results of the STR-TMLE framework use the file Str\_tmle.r.
+To obtain the adjustment set required to control for confounding use the file DAG.py. To reproduce the results of the STR-TMLE framework use the file Str\_tmle.r. To reproduce the results of the g-computation use the file logistic\_gcomputation.R
 
 ## Data Privacy and Anonymization
 
@@ -46,5 +46,5 @@ Juan David Gutiérrez
 ## libraries
 
 haldensify; sl3; tmle3; tmle3shift; dplyr; ggplot2; caret
-pandas; numpy; dowhy; statsmodels; matplolib; scipy; 
+pandas; numpy; dowhy; statsmodels; matplolib; scipy;
 

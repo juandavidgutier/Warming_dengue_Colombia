@@ -168,7 +168,7 @@ compute_evalues_binary_tmle <- function(main_results,
 }
 
 # --- Data Loading ---
-file_path <- "D:/data_final.csv"
+file_path <- "D:/clases/UDES/articulo dengue/stocastic_mil_metros/ci/data_final.csv"
 
 data_all_dengue <- read.csv(file_path, fileEncoding = "latin1")
 
